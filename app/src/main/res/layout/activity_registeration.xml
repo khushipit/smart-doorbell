@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#1203A9F4"
+    tools:context=".registeration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="#EE5BBDFB"
+         />
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:background="@drawable/ic_wave__4_"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_sharp_person_24"
+        android:hint="      Username"
+        android:inputType="textPersonName"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:hint="      E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="      Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:hint="      PhoneNo"
+        android:inputType="phone"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_home_24"
+        android:hint="      Address"
+        android:inputType="textPostalAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        app:backgroundTint="#A603A9F4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already registered? Login here"
+        android:textColor="#03A9F4"
+        android:textSize="16sp"
+        android:layout_gravity="center" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="REGISTER"
+        android:textColor="@color/material_on_primary_emphasis_high_type"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+    <View
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_wave__9_"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
